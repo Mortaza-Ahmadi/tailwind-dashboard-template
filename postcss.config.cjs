@@ -5,4 +5,13 @@ module.exports = ({ env }) => ({
     }),
     require('autoprefixer')()
   ],
+  
 })
+
+// module.exports = {
+//   // other Tailwind CSS configurations...
+//   plugins: [
+//     // other plugins...
+//     require('@tailwindcss/forms'),
+//   ],
+// }
