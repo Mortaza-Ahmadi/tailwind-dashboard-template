@@ -5,6 +5,7 @@ module.exports = {
     './index.html',
     './src/**/*.{js,jsx,ts,tsx}',
   ],
+ 
   darkMode: 'class',
   theme: {
     extend: {
@@ -56,6 +57,9 @@ module.exports = {
     },
   },
   plugins: [
+    
+      require('tailwindcss-rtl'),
+    
     // eslint-disable-next-line global-require
     require('@tailwindcss/forms'),
     // add custom variant for expanding sidebar
